@@ -47,7 +47,6 @@ const amenities = [
   { Icon: Wind, t: "Air-conditioned" },
 ];
 
-export default RoomsPage;
 function RoomsPage() {
   return (
     <>

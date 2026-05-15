@@ -48,10 +48,7 @@ function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background" />
 
-        {/* Floating ornaments */}
-        <div className="absolute top-1/3 left-10 hidden lg:block animate-float-slow">
-          <div className="h-24 w-24 rounded-full border border-gold/40 backdrop-blur-sm" />
-        </div>
+        {/* Floating ornament */}
         <div className="absolute bottom-1/4 right-16 hidden lg:block animate-float-slow [animation-delay:-3s]">
           <Sparkles className="text-gold" size={28} />
         </div>
